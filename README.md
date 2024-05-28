@@ -20,8 +20,8 @@ A Streamlit-based application that allows users to interact with their SQLite da
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/chat-with-your-data.git
-cd chat-with-your-data
+git clone https://github.com/senthilthangaiah/chatwithDatabase.git
+cd chatwithDatabase
 ```
 Create a virtual environment:
 ```sh
