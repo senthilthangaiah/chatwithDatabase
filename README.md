@@ -22,39 +22,49 @@ A Streamlit-based application that allows users to interact with their SQLite da
 ```sh
 git clone https://github.com/yourusername/chat-with-your-data.git
 cd chat-with-your-data
+```
 Create a virtual environment:
-sh
-Copy code
+```sh
+
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 Install the required dependencies:
-sh
-Copy code
+```sh
+
 pip install -r requirements.txt
+
+```
 Set up your environment variables. Create a .env file in the root directory and add the following:
-dotenv
-Copy code
+```dotenv
+
 AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
 AZURE_OPENAI_API_VERSION=your_azure_openai_api_version
 AZURE_OPENAI_API_KEY=your_azure_openai_api_key
+```
+
 Usage
 Run the Streamlit application:
-sh
-Copy code
+```sh
+
 streamlit run app.py
+```
 Open your browser and navigate to the displayed URL (default is http://localhost:8501).
 
 Interact with your database by entering natural language queries in the chat interface.
 
-Project Structure
+## Project Structure
+```css
 main.py: Contains the core logic for interacting with the database and generating SQL queries using OpenAI.
 app.py: Streamlit application code.
 requirements.txt: List of dependencies required to run the project.
 .env: Environment variables for Azure OpenAI API keys (not included in the repository for security reasons).
-License
+```
+
+## License
 This project is licensed under the MIT License.
 
-Acknowledgements
+## Acknowledgements
 OpenAI
 Streamlit
 Sentence Transformers
@@ -71,25 +81,31 @@ sentence-transformers
 torch
 openai
 python-dotenv
+```
+
 .env.example
-dotenv
-Copy code
+```dotenv
+
 AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
 AZURE_OPENAI_API_VERSION=your_azure_openai_api_version
 AZURE_OPENAI_API_KEY=your_azure_openai_api_key
+```
+
 .gitignore
-gitignore
-Copy code
+```gitignore
+
 venv/
 __pycache__/
 .env
 *.sqlite3
 *.db
-Directory Structure
+```
+
+## Directory Structure
 Ensure your project directory is structured as follows:
 
-csharp
-Copy code
+```csharp
+
 chat-with-your-data/
 ├── app.py
 ├── main.py
