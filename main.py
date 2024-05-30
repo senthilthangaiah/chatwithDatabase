@@ -13,10 +13,8 @@ import json
 
 pattern = r'\{.*?\}'
 
-openai.api_type = "azure" 
-openai.api_base =  os.environ["AZURE_OPENAI_ENDPOINT"] 
-openai.api_version = os.environ["AZURE_OPENAI_API_VERSION"]
-openai.api_key = os.environ["AZURE_OPENAI_API_KEY"]
+
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
 class datachat():
