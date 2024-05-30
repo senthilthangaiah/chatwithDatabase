@@ -38,9 +38,8 @@ pip install -r requirements.txt
 Set up your environment variables. Create a .env file in the root directory and add the following:
 ```dotenv
 
-AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
-AZURE_OPENAI_API_VERSION=your_azure_openai_api_version
-AZURE_OPENAI_API_KEY=your_azure_openai_api_key
+
+AZURE_OPENAI_API_KEY=your_openai_api_key
 ```
 
 Usage
