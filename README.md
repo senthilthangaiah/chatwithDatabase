@@ -61,8 +61,8 @@ requirements.txt: List of dependencies required to run the project.
 ```
 ### Results
 
-[!screenshot](https://github.com/senthilthangaiah/chatwithDatabase/blob/master/images/snap1.png)
-[!screenshot](https://github.com/senthilthangaiah/chatwithDatabase/blob/master/images/snap1.png)
+![screenshot](https://github.com/senthilthangaiah/chatwithDatabase/blob/master/images/snap1.png)
+![!screenshot](https://github.com/senthilthangaiah/chatwithDatabase/blob/master/images/snap1.png)
 ## License
 This project is licensed under the MIT License.
 
