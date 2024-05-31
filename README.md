@@ -59,7 +59,10 @@ app.py: Streamlit application code.
 requirements.txt: List of dependencies required to run the project.
 .env: Environment variables for Azure OpenAI API keys (not included in the repository for security reasons).
 ```
+### Results
 
+[!screenshot](https://github.com/senthilthangaiah/chatwithDatabase/blob/master/images/snap1.png)
+[!screenshot](https://github.com/senthilthangaiah/chatwithDatabase/blob/master/images/snap1.png)
 ## License
 This project is licensed under the MIT License.
 
@@ -85,10 +88,7 @@ python-dotenv
 .env.example
 ```dotenv
 
-AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
-AZURE_OPENAI_API_VERSION=your_azure_openai_api_version
-AZURE_OPENAI_API_KEY=your_azure_openai_api_key
-```
+
 
 .gitignore
 ```gitignore
