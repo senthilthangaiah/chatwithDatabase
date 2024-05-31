@@ -1,11 +1,9 @@
 import sqlite3
 import pandas as pd
-from langchain.prompts import PromptTemplate
 import os
 import torch
 import re
 from dotenv import load_dotenv
-from langchain_community.chat_models import AzureChatOpenAI
 from sentence_transformers import SentenceTransformer, util
 import openai
 import json
