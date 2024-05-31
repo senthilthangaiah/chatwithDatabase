@@ -78,7 +78,6 @@ Copy code
 ```txt
 pandas
 streamlit
-langchain
 sentence-transformers
 torch
 openai
